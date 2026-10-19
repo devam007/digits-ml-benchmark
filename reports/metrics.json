@@ -1,0 +1,122 @@
+{
+  "dataset": "sklearn.datasets.load_digits: 1797 samples, 64 pixels, classes 0-9",
+  "dataset_sha256": "f6d9e39f37dc45d327f6db33428ee58970ccceabb2535a5c179de35886b70443",
+  "seed": 42,
+  "python": "3.12.8",
+  "numpy": "2.5.4",
+  "sklearn": "1.9.1",
+  "split_sizes": {
+    "train": 1077,
+    "validation": 360,
+    "test": 360
+  },
+  "validation_scores": {
+    "majority_baseline": {
+      "accuracy": 0.10277777777777777,
+      "macro_f1": 0.01863979848866499
+    },
+    "logistic_regression": {
+      "accuracy": 0.9722222222222222,
+      "macro_f1": 0.9723752603395079
+    },
+    "knn": {
+      "accuracy": 0.9611111111111111,
+      "macro_f1": 0.9616454812523679
+    },
+    "random_forest": {
+      "accuracy": 0.9777777777777777,
+      "macro_f1": 0.9778583643974457
+    }
+  },
+  "selection_metric": "validation macro F1",
+  "selected_model": "random_forest",
+  "test_scores": {
+    "accuracy": 0.9694444444444444,
+    "macro_f1": 0.9690485028684834
+  },
+  "test_baseline": {
+    "accuracy": 0.1,
+    "macro_f1": 0.01818181818181818
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.9722222222222222,
+      "recall": 0.9722222222222222,
+      "f1-score": 0.9722222222222222,
+      "support": 36.0
+    },
+    "1": {
+      "precision": 0.9210526315789473,
+      "recall": 0.9722222222222222,
+      "f1-score": 0.9459459459459459,
+      "support": 36.0
+    },
+    "2": {
+      "precision": 1.0,
+      "recall": 0.9714285714285714,
+      "f1-score": 0.9855072463768116,
+      "support": 35.0
+    },
+    "3": {
+      "precision": 0.9736842105263158,
+      "recall": 1.0,
+      "f1-score": 0.9866666666666667,
+      "support": 37.0
+    },
+    "4": {
+      "precision": 0.972972972972973,
+      "recall": 1.0,
+      "f1-score": 0.9863013698630136,
+      "support": 36.0
+    },
+    "5": {
+      "precision": 0.9736842105263158,
+      "recall": 1.0,
+      "f1-score": 0.9866666666666667,
+      "support": 37.0
+    },
+    "6": {
+      "precision": 1.0,
+      "recall": 0.9722222222222222,
+      "f1-score": 0.9859154929577465,
+      "support": 36.0
+    },
+    "7": {
+      "precision": 0.9473684210526315,
+      "recall": 1.0,
+      "f1-score": 0.972972972972973,
+      "support": 36.0
+    },
+    "8": {
+      "precision": 0.9393939393939394,
+      "recall": 0.8857142857142857,
+      "f1-score": 0.9117647058823529,
+      "support": 35.0
+    },
+    "9": {
+      "precision": 1.0,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9565217391304348,
+      "support": 36.0
+    },
+    "accuracy": 0.9694444444444444,
+    "macro avg": {
+      "precision": 0.9700378608273346,
+      "recall": 0.9690476190476189,
+      "f1-score": 0.9690485028684834,
+      "support": 360.0
+    },
+    "weighted avg": {
+      "precision": 0.9700600121652754,
+      "recall": 0.9694444444444444,
+      "f1-score": 0.9692597844825785,
+      "support": 360.0
+    }
+  },
+  "test_errors": 11,
+  "limitations": [
+    "Small educational dataset; no claim about arbitrary handwriting images.",
+    "Random split is not a writer-independent evaluation.",
+    "One fixed split; scores have sampling uncertainty."
+  ]
+}
