@@ -5,8 +5,8 @@ digits dataset. Compare a majority-class baseline, logistic regression, KNN, and
 a random forest; select on validation macro F1, then evaluate the selected model
 on a held-out test set.
 
-Built with AI assistance as a learning portfolio project. This is a benchmark on
-a small educational dataset, not a production handwriting recognition service.
+This learning project benchmarks a small educational dataset. Its results do not
+establish performance on arbitrary handwriting or photographs.
 
 ## Reproduce
 

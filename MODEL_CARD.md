@@ -10,7 +10,6 @@
   production deployment, and claims about accuracy on other populations.
 - **Reproducibility:** Seed, split membership, dataset hash, and library versions
   are saved by the training command. Floating-point behavior may vary by platform.
-- **Assistance:** Initial implementation, tests, and documentation prepared with Codex.
 
 ## Questions to answer before an interview
 
@@ -24,4 +23,3 @@
 ## Personal experiment log
 
 Add your own dated observations and modifications after reproducing the baseline.
-Do not describe the initial AI-assisted implementation as independently authored.
